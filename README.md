@@ -6,11 +6,11 @@ SoftUni JS Back-End Course Project "Furniture Store"
 1. Create repository ✅
 2. Initial folder structure ✅
 3. Add client resources and install dependencies cd client npm i ✅
-4. Add gitignore in client folder
+4. Add gitignore in client folder ✅
 
 ## Startup Client
 
-5. Install vite (local development server) npm i -D vite
+5. Install vite (local development server) npm i -D vite ✅
 6. Setup vite
 
 ## Setup REST API
