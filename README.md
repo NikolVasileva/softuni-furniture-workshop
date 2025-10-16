@@ -11,7 +11,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 ## Startup Client
 
 5. Install vite (local development server) npm i -D vite ✅
-6. Setup vite
+6. Setup vite ✅
 
 ## Setup REST API
 
