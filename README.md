@@ -3,7 +3,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 
 ## Initial Setup
 
-1. Create repository
+1. Create repository ✅
 2. Initial folder structure
 3. Add client resources and install dependencies cd client npm i
 4. Add gitignore in client folder
