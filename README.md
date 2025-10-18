@@ -30,8 +30,8 @@ SoftUni JS Back-End Course Project "Furniture Store"
 16. Add user service with register method ✅
 17. Install bcrypt -> npm i bcrypt ✅
 18. Hash password on register ✅
-19. Add login endpoint and service
-20. Verify login credentials
+19. Add login endpoint and service ✅
+20. Verify login credentials ✅
 21. Generate and return token npm i jsonwebtoken
 22. Auto login after register
 23. Create logout
