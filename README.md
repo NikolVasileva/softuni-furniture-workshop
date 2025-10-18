@@ -35,7 +35,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 21. Generate and return token -> npm i jsonwebtoken ✅
 22. Auto login after register ✅
 23. Create logout ✅
-24. Add auth middleware
+24. Add auth middleware ✅
 
 ## Furniture Endpoints
 

@@ -3,6 +3,7 @@ import cors from "cors"
 import routes from "./routes.js";
 import mongoose from "mongoose";
 import "dotenv/config";
+import { authMiddleware } from "./middlewares/authMiddleware.js";
 
 
 const app = express();
@@ -25,6 +26,9 @@ app.use(cors())
 
 // Add JSON Parser
 app.use(express.json())
+
+// Add auth middleware
+app.use(authMiddleware)
 
 // Add routes
 app.use(routes)
