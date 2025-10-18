@@ -42,7 +42,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 25. Add furniture model ✅
 26. Add furniture service ✅
 27. Create furniture endpoint ✅
-28. Get all furnitures
+28. Get all furnitures ✅
 29. Select only needed information for catalog
 30. Create details endpoint
 31. Add owner relation to furniture model

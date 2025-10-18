@@ -3,8 +3,10 @@ import furnitureService from "../services/furnitureService.js";
 
 const furnitureController = Router();
 
-furnitureController.get("/", (req, res) => {
-    res.json([])
+furnitureController.get("/", async (req, res) => {
+    const furnitures = await furnitureService.getAll();
+
+    res.json(furnitures ?? []);
 });
 
 furnitureController.post("/", async (req, res) => {
@@ -12,7 +14,7 @@ furnitureController.post("/", async (req, res) => {
 
     const furniture = await furnitureService.create(furnitureData);
 
-    res.status(201).json(furniture)
+    res.status(201).json(furniture);
 })
 
 export default furnitureController;
