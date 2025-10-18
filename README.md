@@ -15,7 +15,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 
 ## Setup REST API
 
-7. Initialize project and add .gitignore
+7. Initialize project ✅
 8. Install and setup express npm i express
 9. Add cors
 10. Add furniture controller
