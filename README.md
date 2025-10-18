@@ -17,7 +17,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 
 7. Initialize project ✅
 8. Install and setup express npm i express ✅
-9. Add cors
+9. Add cors -> npm i cors ✅
 10. Add furniture controller
 
 ## Authentication and Authorization
