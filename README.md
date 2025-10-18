@@ -39,7 +39,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 
 ## Furniture Endpoints
 
-25. Add furniture model
+25. Add furniture model ✅
 26. Add furniture service
 27. Create furniture endpoint
 28. Get all furnitures
