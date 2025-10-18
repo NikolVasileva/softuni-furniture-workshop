@@ -32,7 +32,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 18. Hash password on register ✅
 19. Add login endpoint and service ✅
 20. Verify login credentials ✅
-21. Generate and return token npm i jsonwebtoken
+21. Generate and return token -> npm i jsonwebtoken ✅
 22. Auto login after register
 23. Create logout
 24. Add auth middleware
@@ -57,7 +57,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 
 ## Bonus
 
-37. Use env variables npm i dotenv
+37. Use env variables -> npm i dotenv ✅
 38. Build with vite
 39. Refactor services
 40. Invalidate token
