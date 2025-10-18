@@ -22,6 +22,12 @@ userController.post("/login", async (req, res) => {
     } catch(err) {
         res.status(401).json({ message: err.message })
     }
+});
+
+userController.get("/logout", (req, res) => {
+    // TODO: Invalidated token
+
+    res.status(204).json({ok: true})
 })
 
 export default userController
