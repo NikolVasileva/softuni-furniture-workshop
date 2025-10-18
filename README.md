@@ -23,7 +23,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 ## Authentication and Authorization
 
 11. Create user controller ✅
-12. Add json parser
+12. Add json parser ✅
 13. Add register endpoint
 14. Add and config database npm i mongoose
 15. Add user model
