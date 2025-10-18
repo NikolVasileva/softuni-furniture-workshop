@@ -28,7 +28,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 14. Add and config database npm i mongoose ✅
 15. Add user model ✅
 16. Add user service with register method ✅
-17. Install bcrypt
+17. Install bcrypt -> npm i bcrypt ✅
 18. Hash password on register
 19. Add login endpoint and service
 20. Verify login credentials
