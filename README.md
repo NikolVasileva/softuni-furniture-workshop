@@ -53,7 +53,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 ## Error handling
 
 35. Create error util for message ✅
-36. Global error handler
+36. Global error handler ✅
 
 ## Bonus
 

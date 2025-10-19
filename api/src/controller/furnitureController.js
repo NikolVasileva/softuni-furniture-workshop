@@ -40,20 +40,15 @@ furnitureController.post('/', async (req, res) => {
 
 });
 
-furnitureController.put("/:furnitureId", async (req, res) => {
-    const furniterId = req.params.furnitureId;
+furnitureController.put('/:furnitureId', async (req, res) => {
+    const furnitureId = req.params.furnitureId;
     const furnitureData = req.body;
 
-    try {
-        const furniture = await furnitureService.update(furniterId, furnitureData);
+    const furniture = await furnitureService.update(furnitureId, furnitureData);
 
-        res.json(furniture);
+    res.json(furniture);
+});
 
-    } catch(err) {
-
-    }
-
-})
 
 furnitureController.delete("/:furnitureId", async (req, res) => {
     const furniterId = req.params.furnitureId;
