@@ -58,6 +58,6 @@ SoftUni JS Back-End Course Project "Furniture Store"
 ## Bonus
 
 37. Use env variables -> npm i dotenv ✅
-38. Build with vite
+38. Build with vite ✅
 39. Refactor services
 40. Invalidate token
