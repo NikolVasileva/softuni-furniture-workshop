@@ -19,10 +19,11 @@ furnitureController.get("/:furniteId", async (req, res) => {
 
 furnitureController.post("/", async (req, res) => {
     const furnitureData = req.body;
+    const ownerId = req.user.id;
 
-    const furniture = await furnitureService.create(furnitureData);
+    const furniture = await furnitureService.create(furnitureData, ownerId);
 
-    res.status(201).json(furniture);
+    res.status(201).json(furniture, ownerId);
 })
 
 export default furnitureController;

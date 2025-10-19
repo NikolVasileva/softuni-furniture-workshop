@@ -11,7 +11,10 @@ export default {
     getOne(furniteId) {
         return Furniture.findById(furniteId)
     },
-    create(furnitureData) {
-        return Furniture.create(furnitureData)
+    create(furnitureData, ownerId) {
+        return Furniture.create({
+            ...furnitureData,
+            _ownerId: ownerId
+        })
     }
 }

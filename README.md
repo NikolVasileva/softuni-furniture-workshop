@@ -45,7 +45,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 28. Get all furnitures ✅
 29. Select only needed information for catalog ✅
 30. Create details endpoint ✅
-31. Add owner relation to furniture model
+31. Add owner relation to furniture model ✅
 32. Edit furniture endpoint
 33. Delete furniture endpoint
 34. Filter furniture by userId
