@@ -1,12 +1,12 @@
 import Furniture from "../models/Furniture.js"
 
 export default {
-    getAll() {
-        return Furniture.find().select({
+    getAll(filter) {
+        return Furniture.find(filter).select({
             description: true,
             price: true,
-            img: true
-        })
+            img: true,
+        });
     },
     getOne(furniteId) {
         return Furniture.findById(furniteId)

@@ -48,7 +48,7 @@ SoftUni JS Back-End Course Project "Furniture Store"
 31. Add owner relation to furniture model ✅
 32. Edit furniture endpoint ✅
 33. Delete furniture endpoint ✅
-34. Filter furniture by userId
+34. Filter furniture by userId ✅
 
 ## Error handling
 
