@@ -8,6 +8,9 @@ export default {
             img: true
         })
     },
+    getOne(furniteId) {
+        return Furniture.findById(furniteId)
+    },
     create(furnitureData) {
         return Furniture.create(furnitureData)
     }
