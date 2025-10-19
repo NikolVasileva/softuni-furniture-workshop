@@ -26,4 +26,19 @@ furnitureController.post("/", async (req, res) => {
     res.status(201).json(furniture, ownerId);
 })
 
+furnitureController.put("/:furnitureId", async (req, res) => {
+    const furniterId = req.params.furnitureId;
+    const furnitureData = req.body;
+
+    try {
+        const furniture = await furnitureService.update(furniterId, furnitureData);
+
+        res.json(furniture);
+
+    } catch(err) {
+
+    }
+
+})
+
 export default furnitureController;
